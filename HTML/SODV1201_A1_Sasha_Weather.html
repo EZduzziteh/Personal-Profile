@@ -1,0 +1,60 @@
+<!--
+/**
+    * @name: Assignment1
+    * @Course Code: SODV1201
+    * @class: Software Development Diploma program.
+    * @author: Sasha Gordon Greene
+    */
+
+    Create a new page called weather. On this page use the concept of JavaScript named and anonymous function and create a program that can accept a temperature input in degree Fahrenheit and convert it into degree Celsius and from Celsius to Kelvin based on a button click event.  
+
+    Hint: Use JQuery to access the DOM elements in your code for this question. 
+    Do a little research to find out the basic formula for each calculation.
+-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Weather Page</title>
+	<link rel="stylesheet" href="../CSS/SODV1201_A1_Sasha_Weather.css">
+
+
+</head>
+    
+<header>
+    <nav>
+        <div class="nav_component" >
+            <a href="SODV1201_A1_Sasha_Profile.html" color = inherit; >Profile Page</a>
+        </div>
+        <div class="nav_component" >
+            <a href="SODV1201_A1_Sasha_MarkToGrade.html" color = inherit; >Mark To Grade Converter</a>
+        </div>
+        <div class="nav_component" >
+            <a href="SODV1201_A1_Sasha_Staff.html" color = inherit; >Staff</a>
+        </div>
+        <div class="nav_component" >
+            <a href="SODV1201_A1_Sasha_Weather.html" color = inherit; >Weather</a>
+        </div>
+                 
+                
+    </nav>
+</header>
+
+<body>
+    <h1>Temperature Converter</h1>
+    <p>This page will convert your fahrenheit value into celsius, and then from celsius into kelvin.</p>
+    <h2>Enter Temperature(Fahrenheit): </h2>
+    <input type="text" name="temp_input" id="temp_input"/>
+    <input id = "button" type="submit" value="Convert Temperature to Celsius"/>
+    <h2>Converted: </h2>
+
+    <script src="../Javascript/SODV1201_A1_Sasha_jquery-3.6.0.js"></script>
+    <script src="../JavaScript/SODV1201_A1_Sasha_MainScript.js"> </script>
+</body>
+
+
+<footer>
+    © Sasha Gordon Greene 2022
+</footer>
+</html>

@@ -1,0 +1,36 @@
+/**
+
+    * @name: Assignment1
+    * @Course Code: SODV1201
+    * @class: Software Development Diploma program.
+    * @author: Sasha Gordon Greene
+*/
+
+nav{
+    text-align: center;
+    align-content: center;
+    display:inline-flex;
+    background-color:rgb(32, 218, 187);
+    width:auto;
+    height:auto;
+    color:rgb(29, 15, 15);
+    padding:4px;
+}
+.nav_component{
+    display:inline;
+    outline: 4px solid rgb(0, 0, 0);
+    padding:5px;
+   
+}
+body{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(25, 24, 77);
+    color:rgb(158, 158, 158);
+}
+footer{
+    background-color: rgb(39, 38, 38);
+    color:rgb(124, 123, 123);
+    padding:10px;
+    margin-top:5%;
+}

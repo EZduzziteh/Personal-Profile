@@ -1,0 +1,75 @@
+<!--
+/**
+    * @name: Assignment1
+    * @Course Code: SODV1201
+    * @class: Software Development Diploma program.
+    * @author: Sasha Gordon Greene
+    */
+Build a Mark to Grade converter web page with the following specification and create a link to it in your profile page
+The MarkToGrade function scrapes the student mark out of the mark-input-box element and verifies it is realistic.
+A Mark must be number only, nonnegative, and less than 101.
+If an invalid mark is entered, it displays a message back to the user in the. validation-message element.
+Messages should be informative... return as many different messages as you can to guide the user what kind of erroneous value has entered	
+If the user entered any value above 90 Grade A should be displayed as a result
+If user entered any value above 80 Grade B should be displayed
+If user entered any value above 70 Grade C should be displayed
+If user entered any value above 50 Grade D should be displayed
+If user entered any value less than 50 Grade F should be displayed 
+Hint 1: In JavaScript, we can use the global parseInt function to try and convert a string to a number.
+Hint 2: Use exception handling.
+Hint 3: Use HTML and JavaScript 
+ 
+-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Mark To Grade</title>
+	<link rel="stylesheet" href="../CSS/SODV1201_A1_Sasha_MarkToGrade.css">
+
+
+</head>
+
+<header>
+    <nav>
+        <div class="nav_component" >
+            <a href="SODV1201_A1_Sasha_Profile.html" color = inherit; >Profile Page</a>
+        </div>
+        <div class="nav_component" >
+            <a href="SODV1201_A1_Sasha_MarkToGrade.html" color = inherit; >Mark To Grade Converter</a>
+        </div>
+        <div class="nav_component" >
+            <a href="SODV1201_A1_Sasha_Staff.html" color = inherit; >Staff</a>
+        </div>
+        <div class="nav_component" >
+            <a href="SODV1201_A1_Sasha_Weather.html" color = inherit; >Weather</a>
+        </div>
+                 
+                
+    </nav>
+</header>
+
+<body>
+   
+    <div class="main_div">
+    <h2>Enter Grade Out of 100: </h2>
+    <input type="text" name="mark_input" id="mark_input"/>
+    <button id="button1" onclick= "ConvertMarkToGrade();">Convert Mark To Grade</button>
+
+    <h2>Converted: </h2>
+    <div id="converted_grade_output"></div>
+    </div>
+    
+    <script src="../Javascript/SODV1201_A1_Sasha_jquery-3.6.0.js"></script>
+    <script src="../JavaScript/SODV1201_A1_Sasha_MainScript.js"> </script>
+        
+    </script>
+</body>
+
+<footer>
+    © Sasha Gordon Greene 2022
+</footer>
+
+
+</html>
